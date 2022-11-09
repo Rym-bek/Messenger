@@ -1,6 +1,6 @@
 # Messenger
 ## Мобильное приложение для обмена сообщениями на Java
-![Screenshot_20221109_230621](https://user-images.githubusercontent.com/91866986/200897966-b5ffd1d9-896e-42e6-91a0-7f7ce67a6fed.png)![Screenshot_20221109_230712](https://user-images.githubusercontent.com/91866986/200898019-1e7eca5d-a3ef-435c-9a22-dfb2a4f1edf8.png)
+<img src="[https://user-images.githubusercontent.com/link-to-your-image.png](https://user-images.githubusercontent.com/91866986/200897966-b5ffd1d9-896e-42e6-91a0-7f7ce67a6fed.png)" width="200" />
 StudENU - это приложение с открытым исходным кодом с функциями обмена сообщениями в режиме реального времени при помощи [Firebase](https://firebase.google.com/), с функцией редактирования профиля.
 
 # Возможности
