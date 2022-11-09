@@ -3,8 +3,7 @@
 
 StudENU - это приложение с открытым исходным кодом с функциями обмена сообщениями в режиме реального времени при помощи [Firebase](https://firebase.google.com/), с функцией редактирования профиля.
 
-<img src="[https://user-images.githubusercontent.com/link-to-your-image.png](https://user-images.githubusercontent.com/91866986/200899053-9e60d883-3f01-4d50-8c84-246246a2db19.png)" width="200" />
-
+<img src="https://user-images.githubusercontent.com/91866986/200899053-9e60d883-3f01-4d50-8c84-246246a2db19.png" width="200" />
 
 # Возможности
 - Привязка аккаунта по номеру телефона и почте
