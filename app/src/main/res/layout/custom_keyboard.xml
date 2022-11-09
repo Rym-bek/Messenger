@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <TableLayout
+        android:id="@+id/LoginPage_tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/number_one"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/one"
+                />
+            <Button
+                android:id="@+id/number_two"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/two"
+                />
+            <Button
+                android:id="@+id/number_three"
+                android:layout_marginEnd="0dp"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/three"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/number_four"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/four"
+               />
+            <Button
+                android:id="@+id/number_five"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/five"
+                />
+            <Button
+                android:id="@+id/number_six"
+                android:layout_marginEnd="0dp"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/six"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/number_seven"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/seven"
+               />
+
+            <Button
+                android:id="@+id/number_eight"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/eight"
+                />
+
+            <Button
+                android:id="@+id/number_nine"
+                android:layout_marginEnd="0dp"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/nine"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/number_zero"
+                style="@style/Widget.Telegram.KeyboardButtonStyle.TextAppearance"
+                android:text="@string/zero"
+               />
+
+            <ImageButton
+                android:id="@+id/custom_keyboard_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:backgroundTint="@color/white_grey"
+                android:src="@drawable/ic_loginpage_button_delete" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/drawable/chat_message_left.xml" value="0.1" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/drawable/chat_message_right.xml" value="0.176" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/drawable/ic_checkmark_message.xml" value="0.2415" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/drawable/ic_input_smile.xml" value="0.1855" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/drawable/ic_input_telegram.xml" value="0.124" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/activity_main.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/country_code_page.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/custom_keyboard.xml" value="0.264" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/input_registration_code.xml" value="0.4" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/item_country.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/item_message.xml" value="0.4" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/item_message_left.xml" value="0.4" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/item_message_right.xml" value="0.4" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/item_slider.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/login_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Rymbek/Desktop/main_telegram_java/app/src/main/res/layout/user_message_page.xml" value="0.264" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable-v24/ic_menu_camera.xml" value="0.124" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable-v24/ic_menu_gallery.xml" value="0.124" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable-v24/ic_menu_slideshow.xml" value="0.124" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable-v24/side_nav_bar.xml" value="0.124" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/button_shape.xml" value="0.1405" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/cursor_custom.xml" value="0.109" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_countrycodepage_back.xml" value="0.2595" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_countrypage_search_icon.xml" value="0.2215" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_inputregistrationcodepage_phone_sms.xml" value="0.2335" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_loginpage_button_delete.xml" value="0.1405" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_loginpage_forward.xml" value="0.2245" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_loginpage_togglebutton.xml" value="0.2205" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_rectangle_icon_131506.xml" value="0.151" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_rectangle_shape_svgrepo_com.xml" value="0.151" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_scrollbar_view.xml" value="0.1" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_sidepanel_create_group.xml" value="0.1" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_sidepanel_invite_friends.xml" value="0.131" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_startpage_cloud.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_startpage_color_telegram.xml" value="0.2245" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_startpage_free.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_startpage_powerful.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_startpage_security.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_startpage_speed.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_startpage_telegram.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_startpage_telegram__1_.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ic_svg.xml" value="0.151" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/line_divider.xml" value="0.149" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ripple.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/ripple_button.xml" value="0.219" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/roundedbutton.xml" value="0.219" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/shapes.xml" value="0.1505" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/shapes_button.xml" value="0.219" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/shine.xml" value="0.1" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/text_borders.xml" value="0.2245" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/thumb_shape.xml" value="0.1" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/drawable/toolbar_dropshadow.xml" value="0.2595" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout-v23/layout_startpage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/app_bar_main.xml" value="0.2" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/content_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/country_code_page.xml" value="0.264" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/custom_keyboard.xml" value="0.176" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/dialog_login_page.xml" value="0.264" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/dialog_login_page_confirm.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/dialog_login_page_warning.xml" value="0.4" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/help_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/input_registration_code.xml" value="0.4" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/item_country.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/item_slider.xml" value="0.264" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/key_preview.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/layout_startpage.xml" value="0.2639138240574506" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/login_page.xml" value="0.3506944444444444" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/layout/nav_header_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/menu/activity_main_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/menu/menu_search_view.xml" value="0.264" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/menu/menu_serach_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/xml/method.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/User/main_telegram_java/app/src/main/res/xml/number_pad.xml" value="0.2441123188405797" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5146831530139103" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

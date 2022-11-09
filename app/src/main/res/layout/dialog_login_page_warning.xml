@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout_dialog_LoginPage_warning"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="@color/white"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/textView_static_dialog_LoginPage_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/incorrect_format"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/NormalTextStyle.BoldTextStyle"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_dialog_LoginPage_warning_country_name"
+        style="@style/NormalTextStyle.BoldTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/phone_number_is_short"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_static_dialog_LoginPage_warning" />
+
+    <TextView
+        android:id="@+id/textView_static_dialog_warning_plus"
+        style="@style/NormalTextStyle.BoldTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_dialog_LoginPage_warning_country_name" />
+
+
+    <TextView
+        android:id="@+id/textView_dialog_LoginPage_warning_phone_number"
+        style="@style/NormalTextStyle.BoldTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_static_dialog_warning_plus"
+        app:layout_constraintTop_toBottomOf="@+id/textView_dialog_LoginPage_warning_country_name" />
+
+    <TextView
+        android:id="@+id/textView_static_dialog_LoginPage_warning_description"
+        style="@style/NormalTextStyle.BoldTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/short_number_warning_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_dialog_LoginPage_warning_phone_number" />
+
+    <Button
+        android:id="@+id/button_dialog_LoginPage_warning_help"
+        style="@style/Widget.Telegram.MainCustomButtonStyle.WhiteButtonStyle.TextAppearanceBig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_static_dialog_LoginPage_warning_description" />
+
+    <Button
+        android:id="@+id/button_dialog_LoginPage_warning_apply"
+        style="@style/Widget.Telegram.MainCustomButtonStyle.WhiteButtonStyle.TextAppearanceBig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_static_dialog_LoginPage_warning_description" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "329393826595",
+    "firebase_url": "https://telegram-cloud-950fe-default-rtdb.firebaseio.com",
+    "project_id": "telegram-cloud-950fe",
+    "storage_bucket": "telegram-cloud-950fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329393826595:android:afe0f9d23ddd417475fa96",
+        "android_client_info": {
+          "package_name": "com.example.telegram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329393826595-07c2j5q4fv97fscdp2le4sfvjokdeor9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.telegram",
+            "certificate_hash": "1624844da395bb1c350b2eb11773661a6a8d4e1e"
+          }
+        },
+        {
+          "client_id": "329393826595-2c82eo9cgkcohkro4d1jrjko1hfdq5cq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUkl7BiEDbKytiVSm43tA0dbnep3Yr-dQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329393826595-2c82eo9cgkcohkro4d1jrjko1hfdq5cq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

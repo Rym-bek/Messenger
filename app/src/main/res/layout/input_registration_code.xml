@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_InputRegistrationCode"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_inputregistrationcodepage_phone_sms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_InputRegistrationCode" />
+
+    <TextView
+        android:id="@+id/textView_InputRegistrationCode_phone_number_static"
+        style="@style/NormalTextStyle.BoldTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/enter_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView_InputRegistrationCode_description"
+        style="@style/NormalTextStyle.SmallTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:gravity="center"
+        android:text="@string/we_send_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_InputRegistrationCode_phone_number_static" />
+
+
+    <include
+        android:id="@+id/include_keyboard"
+        layout="@layout/custom_keyboard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableRow
+        android:id="@+id/tableRow_InputRegistrationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_InputRegistrationCode_description">
+
+        <TextView
+            android:id="@+id/textView_InputRegistrationCode_InputSmsCode_first"
+            style="@style/NormalTextStyle.BoldTextStyle.InputSmsCodeStyle"
+            />
+
+        <TextView
+            android:id="@+id/textView_InputRegistrationCode_InputSmsCode_second"
+            style="@style/NormalTextStyle.BoldTextStyle.InputSmsCodeStyle"
+            />
+
+        <TextView
+            android:id="@+id/textView_InputRegistrationCode_InputSmsCode_third"
+            style="@style/NormalTextStyle.BoldTextStyle.InputSmsCodeStyle"
+             />
+
+        <TextView
+            android:id="@+id/textView_InputRegistrationCode_InputSmsCode_four"
+            style="@style/NormalTextStyle.BoldTextStyle.InputSmsCodeStyle"
+             />
+
+        <TextView
+            android:id="@+id/textView_InputRegistrationCode_InputSmsCode_five"
+            style="@style/NormalTextStyle.BoldTextStyle.InputSmsCodeStyle"
+            />
+
+        <TextView
+            android:id="@+id/textView_InputRegistrationCode_InputSmsCode_six"
+            style="@style/NormalTextStyle.BoldTextStyle.InputSmsCodeStyle"
+            android:layout_marginRight="0dp"
+            />
+    </TableRow>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

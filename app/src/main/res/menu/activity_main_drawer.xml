@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_main"
+        >
+        <item
+            android:id="@+id/navigation_view_find_users"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="@string/find_users" />
+        <item
+            android:id="@+id/navigation_view_create_group"
+            android:icon="@drawable/ic_sidepanel_create_group"
+            android:title="@string/create_group" />
+        <item
+            android:id="@+id/navigation_view_contacts"
+            android:icon="@drawable/ic_sidepanel_contacts"
+            android:title="@string/contacts" />
+        <item
+            android:id="@+id/navigation_view_calls"
+            android:icon="@drawable/ic_sidepanel_calls"
+            android:title="@string/calls" />
+        <item
+            android:id="@+id/navigation_view_people_nearby"
+            android:icon="@drawable/ic_sidepanel_people_nearby"
+            android:title="@string/people_nearby" />
+        <item
+            android:id="@+id/navigation_view_favorites"
+            android:icon="@drawable/ic_sidepanel_favorites"
+            android:title="@string/favorites" />
+        <item
+            android:id="@+id/navigation_view_settings"
+            android:icon="@drawable/ic_sidepanel_settings"
+            android:title="@string/settings" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_second"
+        >
+        <item
+            android:id="@+id/navigation_view_invite_friends"
+            android:icon="@drawable/ic_sidepanel_invite_friends"
+            android:title="@string/invite_friends" />
+        <item
+            android:id="@+id/navigation_view_help"
+            android:icon="@drawable/ic_sidepanel_help"
+            android:title="@string/help" />
+    </group>
+</menu>

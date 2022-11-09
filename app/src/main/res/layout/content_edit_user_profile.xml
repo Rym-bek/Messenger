@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/white_grey"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white_grey"
+        >
+        <LinearLayout
+            android:id="@+id/editUserProfile_selectPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_marginBottom="@dimen/userProfilePaddingBig"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/userProfilePaddingBig"
+                android:paddingEnd="@dimen/userProfilePaddingBig"
+                android:src="@drawable/ic_baseline_add_a_photo_24"
+                android:paddingBottom="@dimen/userProfilePaddingBig"
+                android:paddingTop="@dimen/userProfilePaddingBig"
+                />
+            <TextView
+                android:gravity="start|center"
+                android:paddingStart="@null"
+                style="@style/NormalTextStyle.MainTheme.EditUserProfileTextViewStyle"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="@string/select_photo"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/container_account"
+            style="@style/LinearLayoutVerticalStyle"
+            >
+            <TextView
+                style="@style/NormalTextStyle.Normal.Medium.MainTheme.EditUserProfileTextViewStyle"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="@dimen/userProfilePaddingBig"
+                android:text="@string/account"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/editUserProfile_nickName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/textView_editUserProfile_nickName"
+                    style="@style/NormalTextStyle.Normal.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/nickname"/>
+                <TextView
+                    style="@style/NormalTextStyle.Small.Gray.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/create_nickname"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/editUserProfile_phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:foreground="?android:attr/selectableItemBackground"
+                >
+                <TextView
+                    android:id="@+id/textView_editUserProfile_phoneNumber"
+                    style="@style/NormalTextStyle.Normal.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/phone_number"/>
+                <TextView
+                    android:id="@+id/textView_editUserProfile_phoneNumber_description"
+                    style="@style/NormalTextStyle.Small.Gray.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/set_phone_number"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/editUserProfile_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView_editUserProfile_userName"
+                    style="@style/NormalTextStyle.Normal.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/user_name"/>
+                <TextView
+                    android:id="@+id/textView_editUserProfile_userName_description"
+                    style="@style/NormalTextStyle.Small.Gray.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/set_user_name"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/editUserProfile_eMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/textView_editUserProfile_eMail"
+                        style="@style/NormalTextStyle.Normal.EditUserProfileTextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email" />
+
+                    <ImageView
+                        android:id="@+id/imageView_editUserProfile_eMail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_crisis_alert_24" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView_editUserProfile_eMail_description"
+                    style="@style/NormalTextStyle.Small.Gray.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/set_email"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/editUserProfile_aboutMe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/textView_editUserProfile_aboutMe"
+                    style="@style/NormalTextStyle.Normal.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/about_me"/>
+                <TextView
+                    style="@style/NormalTextStyle.Small.Gray.EditUserProfileTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/set_about_me_information"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

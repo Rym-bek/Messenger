@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NormalTextStyle.Normal.Medium.MainTheme.EditUserProfileTextViewStyle">
+        <item name="android:paddingStart">@dimen/userProfilePaddingBig</item>
+        <item name="android:paddingEnd">@dimen/userProfilePaddingBig</item>
+        <item name="android:paddingBottom">@dimen/userProfilePaddingSmall</item>
+        <item name="android:paddingTop">@dimen/userProfilePaddingSmall</item>
+    </style>
+
+    <style name="NormalTextStyle.Normal.EditUserProfileTextViewStyle">
+        <item name="android:paddingStart">@dimen/userProfilePaddingBig</item>
+        <item name="android:paddingEnd">@dimen/userProfilePaddingBig</item>
+        <item name="android:paddingBottom">@dimen/userProfilePaddingSmall</item>
+        <item name="android:paddingTop">@dimen/userProfilePaddingSmall</item>
+    </style>
+
+    <style name="NormalTextStyle.Small.Gray.EditUserProfileTextViewStyle">
+        <item name="android:paddingStart">@dimen/userProfilePaddingBig</item>
+        <item name="android:paddingEnd">@dimen/userProfilePaddingBig</item>
+        <item name="android:paddingBottom">@dimen/userProfilePaddingSmall</item>
+    </style>
+
+    <style name="LinearLayoutVerticalStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">?android:dividerHorizontal</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:dividerPadding">@dimen/userProfilePaddingBig</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="LinearLayoutHorizontalStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">?android:dividerHorizontal</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:dividerPadding">@dimen/userProfilePaddingBig</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="NormalTextStyle.MainTheme.EditUserProfileTextViewStyle">
+        <item name="android:paddingStart">@dimen/userProfilePaddingBig</item>
+        <item name="android:paddingEnd">@dimen/userProfilePaddingBig</item>
+        <item name="android:paddingBottom">@dimen/userProfilePaddingSmall</item>
+        <item name="android:paddingTop">@dimen/userProfilePaddingSmall</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

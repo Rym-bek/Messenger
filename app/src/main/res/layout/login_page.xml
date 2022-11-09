@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_LoginPage_country_container"
+        style="@style/ConstraintMainStyle.Margins"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_LoginPage_description">
+
+        <TextView
+            android:id="@+id/textView_loginPage_showCountry"
+            style="@style/EditTextMainStyle.Margins"
+            android:layout_width="0dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/textSize_18sp"
+            android:text="@string/select_country"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView_loginPage_forward"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageView_loginPage_forward"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:foreground="?android:attr/actionBarItemBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.444"
+            app:srcCompat="@drawable/ic_loginpage_forward" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView_show_country_title"
+        style="@style/MiniPromptTextStyle.TextAppearance.Margin"
+        android:layout_width="45dp"
+        android:text="@string/country"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout_LoginPage_country_container"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout_LoginPage_country_container"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout_LoginPage_country_container" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_LoginPage_number_container"
+        style="@style/ConstraintMainStyle.Margins"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout_LoginPage_country_container">
+
+        <TextView
+            android:id="@+id/textView_LoginPage_phoneNumber_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="+"
+            android:textSize="@dimen/textSize_18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/textView_LoginPage_phone_number_code"
+            style="@style/EditTextMainStyle"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:maxLength="4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_LoginPage_phoneNumber_plus"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view_loginPage"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="15dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_LoginPage_phone_number_code"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/textView_LoginPage_phone_number"
+            style="@style/EditTextMainStyle.Margins"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:digits="0123456789 "
+            android:maxLength="13"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/view_loginPage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hint_LoginPage_phone_number"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:maxLength="20"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/textSize_18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/view_loginPage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView_LoginPage_phone_number_title"
+        style="@style/MiniPromptTextStyle.TextAppearance.Margin"
+        android:layout_width="100dp"
+        android:text="@string/phone_number"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout_LoginPage_number_container"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout_LoginPage_number_container"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout_LoginPage_number_container" />
+
+
+    <TextView
+        android:id="@+id/textView_LoginPage_phone_number_static"
+        style="@style/NormalTextStyle.Normal.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/phone_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_LoginPage_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="70dp"
+        android:gravity="center"
+        android:text="@string/phone_number_description"
+        style="@style/NormalTextStyle.SmallTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_LoginPage_phone_number_static" />
+
+
+    <Button
+        android:id="@+id/button_LoginPage_toMailRegistration"
+        style="@style/Widget.Telegram.MainCustomButtonStyle.WhiteButtonStyle.TextAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/loginWithEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout_LoginPage_number_container" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/LoginPage_floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/main_theme"
+        app:elevation="0dp"
+        app:tint="@null"
+        app:srcCompat="@drawable/ic_baseline_north_24"
+       />
+
+    <include
+        android:id="@+id/include"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout="@layout/custom_keyboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
