@@ -15,7 +15,10 @@ StudENU - это приложение с открытым исходным ко�
 - Работа с локальной базой данных
 - Обмен сообщениями в режиме реального времени
 
-<img src="https://user-images.githubusercontent.com/91866986/200898182-e1cb67e8-f642-4bbb-9ed3-c7d7dc14bf8f.png" width="200" />
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/91866986/200898182-e1cb67e8-f642-4bbb-9ed3-c7d7dc14bf8f.png" width="200" />
+  <img src="https://user-images.githubusercontent.com/91866986/200900367-e7f115b7-d733-4b8b-9e89-01b7cc625af1.png" width="200" />
+</p>
 
 # Сборка и запуск
 
@@ -34,9 +37,10 @@ StudENU - это приложение с открытым исходным ко�
 
 >Войдите в систему, используя свой номер телефона и код который придёт на номер телефона. Вы даже можете начать использовать только что созданное приложение для общения со своей семьей и друзьями.
 
-<img src="https://user-images.githubusercontent.com/91866986/200898104-6d8d3a4c-8f4c-4c83-88b3-0edd5592df9a.png" width="200" />
-<img src="https://user-images.githubusercontent.com/91866986/200898121-4ce3ae0f-1192-4d15-99ff-5d076670b0ae.png" width="200" />
-
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/91866986/200898104-6d8d3a4c-8f4c-4c83-88b3-0edd5592df9a.png" width="200" />
+  <img src="https://user-images.githubusercontent.com/91866986/200898121-4ce3ae0f-1192-4d15-99ff-5d076670b0ae.png" width="200" />
+</p>
 
 
 
